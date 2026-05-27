@@ -1,0 +1,17 @@
+info:
+  name: Data Platform
+  acronym: DATA
+  description: Data pipelines, warehousing and analytics tooling.
+  jira: https://jira.example.com/projects/DATA
+  email: data-platform@example.com
+members:
+  - name: Edsger Dijkstra
+    email: edsger.dijkstra@example.com
+    role: Data Engineer
+    contract: Permanent
+    joindate: 2021-11-02
+  - name: Barbara Liskov
+    email: barbara.liskov@example.com
+    role: Senior Data Engineer
+    contract: Permanent
+    joindate: 2020-07-30

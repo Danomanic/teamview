@@ -1,0 +1,17 @@
+info:
+  name: People & HR Tools
+  acronym: PEOPLE
+  description: Internal tooling for recruitment and people operations.
+  jira: https://jira.example.com/projects/PEOPLE
+  email: people-tools@example.com
+members:
+  - name: Dorothy Vaughan
+    email: dorothy.vaughan@example.com
+    role: Engineering Manager
+    contract: Permanent
+    joindate: 2021-03-15
+  - name: Mary Jackson
+    email: mary.jackson@example.com
+    role: Software Engineer
+    contract: Permanent
+    joindate: 2023-01-09

@@ -1,0 +1,12 @@
+info:
+  name: Platform
+  acronym: PLAT
+  description: Shared platform and developer-experience teams.
+  jira: https://jira.example.com/projects/PLAT
+  email: platform@example.com
+members:
+  - name: Grace Hopper
+    email: grace.hopper@example.com
+    role: Engineering Manager
+    contract: Permanent
+    joindate: 2020-01-15

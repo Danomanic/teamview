@@ -1,0 +1,21 @@
+# Builds the static site and publishes it to GitLab Pages.
+# `npm run build` runs the prebuild hook (build:org -> static/org.json) and then
+# `vite build`, which outputs the finished site into public/.
+image: node:20
+
+stages:
+  - deploy
+
+pages:
+  stage: deploy
+  script:
+    - npm ci
+    - npm run build
+  pages:
+    # Nested keyword (GitLab 16.1+; required nested form since 17.9).
+    publish: public
+  artifacts:
+    paths:
+      - public # explicit so older GitLab versions publish correctly too
+  rules:
+    - if: $CI_COMMIT_BRANCH == $CI_DEFAULT_BRANCH

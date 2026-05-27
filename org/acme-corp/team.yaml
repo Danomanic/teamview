@@ -1,0 +1,18 @@
+info:
+  name: Acme Corp
+  acronym: ACME
+  description: Top-level engineering organisation.
+  jira: https://jira.example.com/projects/ACME
+  email: eng-leadership@example.com
+members:
+  - name: Ada Lovelace
+    email: ada.lovelace@example.com
+    role: VP of Engineering
+    contract: Permanent
+    joindate: 2019-03-04
+    photo: https://ui-avatars.com/api/?name=Ada+Lovelace&background=6f42c1&color=fff
+  - name: Alan Turing
+    email: alan.turing@example.com
+    role: Chief Architect
+    contract: Permanent
+    joindate: 2018-06-23

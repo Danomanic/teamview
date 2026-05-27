@@ -1,0 +1,17 @@
+info:
+  name: Growth
+  acronym: GROW
+  description: Acquisition, activation and retention experiments.
+  jira: https://jira.example.com/projects/GROW
+  email: growth@example.com
+members:
+  - name: Hedy Lamarr
+    email: hedy.lamarr@example.com
+    role: Software Engineer
+    contract: Permanent
+    joindate: 2024-02-12
+  - name: Tim Berners-Lee
+    email: tim.berners-lee@example.com
+    role: Frontend Engineer
+    contract: Fixed-term
+    joindate: 2025-05-19

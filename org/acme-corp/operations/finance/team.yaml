@@ -1,0 +1,12 @@
+info:
+  name: Finance Systems
+  acronym: FIN
+  description: Billing, invoicing and financial reporting systems.
+  jira: https://jira.example.com/projects/FIN
+  email: finance-systems@example.com
+members:
+  - name: John von Neumann
+    email: john.vonneumann@example.com
+    role: Software Engineer
+    contract: Permanent
+    joindate: 2022-08-08

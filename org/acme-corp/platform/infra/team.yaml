@@ -1,0 +1,23 @@
+info:
+  name: Infrastructure
+  acronym: INFRA
+  description: Cloud infrastructure, networking and Kubernetes.
+  jira: https://jira.example.com/projects/INFRA
+  email: infra@example.com
+members:
+  - name: Claude Shannon
+    email: claude.shannon@example.com
+    role: Senior Software Engineer
+    contract: Permanent
+    joindate: 2026-01-01
+    photo: https://ui-avatars.com/api/?name=Claude+Shannon&background=2f6feb&color=fff
+  - name: Katherine Johnson
+    email: katherine.johnson@example.com
+    role: Software Engineer
+    contract: Permanent
+    joindate: 2023-09-11
+  - name: Linus Torvalds
+    email: linus.torvalds@example.com
+    role: Staff Engineer
+    contract: Contract
+    joindate: 2022-04-18

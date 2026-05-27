@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TeamView — Org structure</title>
+  </head>
+  <body>
+    <header class="topbar">
+      <div class="brand">TeamView</div>
+      <div class="search-wrap">
+        <input
+          id="search"
+          type="search"
+          placeholder="Search people or teams…"
+          autocomplete="off"
+          spellcheck="false"
+        />
+        <ul id="results" class="results"></ul>
+      </div>
+      <div class="controls">
+        <button id="expand-all" type="button">Expand all</button>
+        <button id="collapse-all" type="button">Collapse all</button>
+      </div>
+    </header>
+    <main class="chart-area">
+      <div id="chart" class="chart"></div>
+      <div class="zoom-controls">
+        <div class="zoom-group">
+          <button id="zoom-in" type="button" title="Zoom in" aria-label="Zoom in">+</button>
+          <button id="zoom-out" type="button" title="Zoom out" aria-label="Zoom out">−</button>
+        </div>
+        <button id="zoom-fit" class="zoom-fit" type="button" title="Fit to screen" aria-label="Fit to screen">⤢</button>
+      </div>
+    </main>
+    <script type="module" src="/src/main.js"></script>
+  </body>
+</html>

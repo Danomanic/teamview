@@ -1,0 +1,11 @@
+info:
+  name: Product Engineering
+  description: Customer-facing product teams.
+  jira: https://jira.example.com/projects/PROD
+  email: product-eng@example.com
+members:
+  - name: Margaret Hamilton
+    email: margaret.hamilton@example.com
+    role: Engineering Manager
+    contract: Permanent
+    joindate: 2019-10-21
